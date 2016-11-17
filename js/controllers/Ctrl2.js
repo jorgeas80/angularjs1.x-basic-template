@@ -1,14 +1,12 @@
-/**
- * Controller for route 2 here.
- */
-function Ctrl2() {
+angular
+  .module('app')
+  .controller('Ctrl2', function() {
+      // Capture this context here
+      var vm = this;
 
-    // Capture this context here
-    var vm = this;
-
-    vm.obj = {
+      vm.obj = {
         msg: 'This is template 2'
-    }
+      }
 
-    // Your code here
-}
+      // Your code here
+    });
