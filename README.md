@@ -21,9 +21,9 @@ And then run karma from *js* folder
 ```
 
 
-**NOTE**: If you're using npm 3.x.x, you should install jasmine-core globally too.
+**NOTE**: If you're using npm 3.x.x, you should install jasmine-core and karma globally too.
 ```
-npm install -g jasmine-core
+npm install -g jasmine-core karma karma-jasmine
 ```
 
 More info [here](https://code.ciphertrick.com/2015/08/03/angularjs-unit-testing-tutorial-karma-jasmine/)
